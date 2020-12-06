@@ -22,3 +22,15 @@ function smallestString(strings) {
 }
 
 console.log(smallestString(["hi", "hello", "hey", "bonjour"]));
+
+// 3. Write a function that takes in an array of numbers and returns a new array with the numbers in reverse order.
+
+function reversedNumbers(numbers) {
+  var result = [];
+  for (var i = numbers.length - 1; i >= 0; i--) {
+    result.push(numbers[i]);
+  }
+  return result;
+}
+
+console.log(reversedNumbers([1, 2, 3, 4, 5]));
